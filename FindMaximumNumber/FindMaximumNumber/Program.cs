@@ -13,6 +13,9 @@
 
             double doubleOutput = maximumNumberCheck.MaximumFloatNumber(111.1567, 234.5466, 668.9890);
             Console.WriteLine(doubleOutput);
+
+            string stringOutput = maximumNumberCheck.MaximumStringNumber("22", "33", "44");
+            Console.WriteLine(stringOutput);
         }
     }
 }
